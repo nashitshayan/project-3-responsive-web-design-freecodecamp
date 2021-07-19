@@ -10,4 +10,147 @@ h3 {
    padding:0;
 }
 
+body {
+    background-color: #eee;
+}
 
+#header {
+    box-sizing: border-box;
+text-align: center;
+}
+#header-img{
+   width: 300px;
+   padding-top: 1rem;
+}
+#header ul, ol  {
+    list-style: none;
+
+}
+#header li, ol {
+    margin: 0.5rem;
+}
+    
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+section, #features div{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+section h2{
+    text-align: center;
+   
+}
+#form-heading{
+   
+    margin-bottom: 1rem;
+}
+#form {
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: center;
+    align-items: center;
+}
+input[type="email"]{
+    width: 250px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+#submit {
+    width: 150px;
+    margin: 0.5rem;
+    padding: 0.5rem ;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: #f1c40f;
+    border: none;
+}
+
+#submit:hover{
+    animation-name: submit-hover;
+   animation-duration: 500ms;
+   animation-fill-mode: forwards;
+}
+
+@keyframes submit-hover {
+    100% {
+        background-color: #f1a90f;
+    }
+}
+
+iframe {
+    width: 100%;
+}
+
+
+#pricing{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.card h2{
+    padding: 0.5rem;
+}
+ol {
+    text-align: center;
+    padding: 0;
+    margin: 0.5rem;
+}
+.card-header {
+    width: 100%;
+    background-color: #ddd;
+    font-size: 1rem;
+    padding: 0.75rem;
+}
+.card ol li {
+    padding: 0.3rem;
+}
+#select {
+    padding: 0.5rem 1rem ;
+    margin: 1rem 0.5rem;
+    font-size: 1rem;
+    background-color: #f1c40f;
+    border: none;
+}
+
+
+#select:hover{
+    animation-name: select-hover;
+   animation-duration: 500ms;
+   animation-fill-mode: forwards;
+}
+
+@keyframes select-hover {
+    100% {
+        background-color: #f1a90f;
+    }
+}
+
+
+#footer{
+    background-color: #ddd;
+    text-align: center;
+    padding: 1rem;
+}
+#footer ul {
+    list-style: none;
+}
+#footer li {
+    display: inline;
+    padding: 0.5rem;
+}

@@ -18,23 +18,23 @@
             <nav id="nav-bar">
                 <ul>
                     <li>
-                        <a href="#features" id="nav-link">Features</a>
+                        <a href="#features" class="nav-link">Features</a>
                     </li>
                     <li>
-                        <a href="#video" id="nav-link">How It Works</a>
+                        <a href="#video" class="nav-link">How It Works</a>
                     </li>
                     <li>
-                        <a href="#pricing" id="nav-link">Pricing</a>
+                        <a href="#pricing" class="nav-link">Pricing</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section id="form">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <form action="https://www.freecodecamp.com/email-submit">
+        <section>
+            <h2 id="form-heading">Handcrafted, home-made masterpieces</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
                 <input type="email" id="email" placeholder="Enter your email address" required
                     pattern="^[^\s@]+@([^\s@.,]+\.)+[^\s@.,]{2,}$">
-                <button id="submit">GET STARTED</button>
+                <input type="submit" id="submit" value="GET STARTED">
             </form>
         </section>
 
@@ -64,31 +64,41 @@
 
         <section id="pricing">
             <div class="card">
-                <div class="card-header">Tenor Trombone</div>
-                <div class="price">$600</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum dolor.</div>
-                <div>Lorem, ipsum.</div>
-                <button id="select">Select</button>
+                <div class="card-header">TENOR TROMBONE</div>
+                <h2>$600</h2>
+                <ol>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum</li>
+                </ol>
+                <button id="select">SELECT</button>
+            </div>
             </div>
             <div class="card">
-                <div class="card-header">Bass Trombone</div>
-                <div class="price">$900</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum dolor.</div>
-                <div>Lorem, ipsum.</div>
-                <button id="select">Select</button>
+                <div class="card-header">BASS TROMBONE</div>
+
+                <h2>$900</h2>
+                <ol>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum</li>
+                </ol>
+                <button id="select">SELECT</button>
+            </div>
             </div>
             <div class="card">
-                <div class="card-header">Valve Trombone</div>
-                <div class="price">$1200</div>
-                <div>Plays similar to a Trumpet</div>
-                <div> Great for Jazz Bands</div>
-                <div>Lorem, ipsum dolor.</div>
-                <div>Lorem, ipsum.</div>
-                <button id="select">Select</button>
+                <div class="card-header">VALVE TROMBONE</div>
+                <h2>$1200</h2>
+                <ol>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum</li>
+                </ol>
+                <button id="select">SELECT</button>
+            </div>
             </div>
         </section>
         <footer id="footer">
